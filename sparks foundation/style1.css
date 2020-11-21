@@ -1,0 +1,81 @@
+*{margin: 100; padding: 100; box-sizing: border-box;}
+a{ text-decoration:none;}
+
+a:hover{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+
+.header{
+    width:100%;
+    height:100vh;
+    object-fit: cover;
+    background-image:url('https://alexchiri.com/img/2019/10/helping.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+}
+.header-section{
+    width:100%;
+    height:inherit;
+    text-align: center;
+    position:relative;
+
+}
+.center-div{
+    width: 100%;
+    height:auto;
+    position:absolute;
+    color:yellowgreen;
+  
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+ -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.header-buttons a{
+ margin-top:20px;
+ padding:15px;
+ border-radius: 0.25rem ;
+ background-color:rgb(116, 41, 11);
+ color:white;
+ display:inline-block;
+}
+.navbar-brand{
+
+    font-size:2.5 rem;
+    font-style:italic;
+    text-align:left;
+    
+
+}
+.top-liner{
+    margin-top:60px;
+    font-size:35px;
+    font-style: italic;
+    color:rgb(128, 15, 0);
+}
+.testimonials{
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+.info{
+    display:inline-block;
+    width:350px;
+    height:250px; 
+    margin:0;
+    padding:0;
+}
+footer{
+    background-color:black;
+    color:wheat;
+    clear:both;
+    text-align:center;
+    padding:10px;
+    margin:0;
+    padding:0;
+} 

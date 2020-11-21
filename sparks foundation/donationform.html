@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+
+<section class="my-5">
+        <div class="py-5">
+            <h2 class="text-center"><u>Donation Form</u></h2>
+        </div>
+        <div class="w-50 m-auto">
+            <form action="pay.php" method="post">
+                <div class="form-group" >
+                    <input type="text" class="form-control"  name="Name" size="20" maxlength="25" autocomplete="off" tabindex="1" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="Email" class="form-control"  name="Email" maxlength="100" autocomplete="off" tabindex="3" placeholder="Email" required >
+                </div>
+                <div class="form-group">
+                    <input type="tel" pattern="[0-9]{10}" class="form-control" name="phone" autocomplete="off" tabindex="5"  placeholder="Phone Number" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="number" class="form-control" name="Amount" autocomplete="off" tabindex="5"  placeholder="Amount" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" name="submit" value="Donate" class="btn btn-success btn-lg" style='width:100px;margin:0 50%;position:relative;left:-50px;'>
+                </div>
+             </form>
+
+            </div>
+
+            </section>
+
+
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    <html>
+</body>
+
+</html>
